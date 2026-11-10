@@ -1,0 +1,21 @@
+# data files (don't commit large data or intermediate outputs)
+*.json
+*.csv
+*.txt
+*.gz
+*.zip
+
+# secrets / credentials — NEVER commit these
+.env
+*.pem
+credentials
+aws_keys*
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS junk
+.DS_Store
